@@ -7,6 +7,21 @@ RewriteEngine On
 RewriteBase /
 
 ######################################
+# 00. www -> bez www (jednym skokiem; https wymusza już serwer)
+######################################
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
+
+######################################
+# 0z. /index.html, /index, /katalog/index(.html) -> 301 jednym skokiem na adres kanoniczny
+######################################
+# Reguła 1 zamieniała /index.html na /index, a /index serwował stronę główną z kodem 200
+# (duplikat; GSC 09.2026 na wukowarszawa.pl: "Duplikat, Google wybrała inną stronę kanoniczną").
+# THE_REQUEST = to, co wpisał klient; wewnętrzne rewrite'y poniżej tej reguły nie odpalają.
+RewriteCond %{THE_REQUEST} \s/+([^?\s]*/)?index(\.html)?[?\s] [NC]
+RewriteRule ^(.*?)/?index(\.html)?$ /$1 [R=301,L]
+
+######################################
 # 1. USUŃ .html Z URL (301)
 ######################################
 # Jeśli ktoś wpisze .html, przekieruj na wersję bez rozszerzenia
