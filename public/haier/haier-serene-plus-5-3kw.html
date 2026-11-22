@@ -12,8 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
   </noscript>
 
-  <link rel="stylesheet" href="https://montaz-serwis-klimatyzacji.pl/style.css">
-  <link rel="stylesheet" href="../navbar-style.css">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/navbar-style.css">
+  <link rel="canonical" href="https://montazklimatyzacjiwarszawa.pl/haier/haier-serene-plus-5-3kw">
 </head>
 <body>
 
@@ -24,20 +25,31 @@
 
 <nav class="navbar" id="navbar">
   <div class="nav-container">
-    <a href="../index.html" class="nav-logo" aria-label="Proklima - Strona główna">
-      <span class="logo-snowflake">❄️</span>
+    <a href="/" class="nav-logo" aria-label="Proklima - Strona główna">
+      <span class="logo-snowflake"></span>
       <span class="logo-text-new">
         <span class="logo-text-black">Pro</span><span class="logo-text-blue">klima</span>
       </span>
     </a>
-    <ul class="nav-links">
-      <li><a href="../index.html#klimatyzatory">Polecane</a></li>
-      <li><a href="../realizacje.html">Realizacje</a></li>
-      <li><a href="../blog.html">Blog</a></li>
-      <li><a href="../index.html#kontakt">Kontakt</a></li>
-      <li><a href="tel:+48888888888" class="nav-cta">888 888 888</a></li>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="/#klimatyzatory">Polecane</a></li>
+      <li><a href="/realizacje">Realizacje</a></li>
+      <li><a href="/#klimatyzatory-section">Klimatyzatory</a></li>
+      <li class="nav-dropdown">
+        <a href="#" class="nav-dropdown-toggle">Dzielnice ▾</a>
+        <ul class="nav-dropdown-menu">
+          <li><a href="/klimatyzacja-warszawa">Warszawa</a></li>
+          <li><a href="/montaz-klimatyzacji-targowek">Targówek</a></li>
+          <li><a href="/montaz-klimatyzacji-mokotow">Mokotów</a></li>
+          <li><a href="/montaz-klimatyzacji-wesola">Wesoła</a></li>
+        </ul>
+      </li>
+      <li><a href="/opinie">Opinie</a></li>
+      <li><a href="/kontakt">Kontakt</a></li>
+      <li><a href="tel:+48888806921" class="nav-cta">888 806 921</a></li>
     </ul>
-    <button class="hamburger" aria-label="Menu">
+    <div class="nav-overlay" id="nav-overlay"></div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
       <span></span><span></span><span></span>
     </button>
   </div>
@@ -54,11 +66,11 @@
     <section class="selection-box" aria-labelledby="selection-title">
       <h3 id="selection-title">Dobierz moc do pomieszczenia:</h3>
       <div class="areaButtons">
-        <a href="haier-serene-plus-2-6kw.html" class="areaBtn">do 25 m²</a>
-        <a href="haier-serene-plus-3-5kw.html" class="areaBtn">25 – 35 m²</a>
+        <a href="/haier/haier-serene-plus-2-6kw" class="areaBtn">do 25 m²</a>
+        <a href="/haier/haier-serene-plus-3-5kw" class="areaBtn">25 – 35 m²</a>
         <span class="areaBtn active" aria-pressed="true">35 – 50 m²</span>
-        <a href="haier-serene-plus-7-1kw.html" class="areaBtn">50 – 80 m²</a>
-        <a href="klimatyzatory-haier.html" class="areaBtn areaBtn-full">Powrót - wszystkie Haier</a>
+        <a href="/haier/haier-serene-plus-7-1kw" class="areaBtn">50 – 80 m²</a>
+        <a href="/haier/klimatyzatory-haier" class="areaBtn areaBtn-full">Powrót - wszystkie Haier</a>
       </div>
     </section>
   </header>
@@ -67,7 +79,7 @@
       <aside class="sticky-sidebar" aria-label="Zdjęcia produktu">
         <div class="img-container">
           <div class="img-main">
-            <img src="https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-haier/klimatyzator-haier-serene-plus-kolor-white-matt-indoor.webp"
+            <img src="/klimatyzatory-scienne-haier/klimatyzator-haier-serene-plus-kolor-white-matt-indoor.webp"
                  alt="Klimatyzator ścienny Haier Serene Plus - jednostka wewnętrzna White Matt" width="300" height="300" fetchpriority="high">
           </div>
           <div class="img-footer">
@@ -77,7 +89,7 @@
         </div>
         <div class="img-container">
           <div class="img-main">
-            <img src="https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-haier/klimatyzator-haier-serene-plus-kolor-white-matt-indoor.webp"
+            <img src="/klimatyzatory-scienne-haier/klimatyzator-haier-serene-plus-kolor-white-matt-indoor.webp"
                  alt="Klimatyzator ścienny Haier Serene Plus - jednostka wewnętrzna Black Matt" width="300" height="300" loading="lazy">
           </div>
           <div class="img-footer">
@@ -87,7 +99,7 @@
         </div>
         <div class="img-container">
             <div class="img-main">
-              <img src="https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-haier/klimatyzator-haier-serene-plus-outdoor.webp"
+              <img src="/klimatyzatory-scienne-haier/klimatyzator-haier-serene-plus-outdoor.webp"
                    alt="Agregat zewnętrzny Haier Serene Plus" width="340" height="340" loading="lazy">
             </div>
             <div class="img-footer img-footer-outdoor">
@@ -139,7 +151,7 @@
         <div class="mobile-only-photos">
         <div class="img-container">
           <div class="img-main">
-            <img src="https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-haier/klimatyzator-haier-serene-plus-kolor-white-matt-indoor.webp"
+            <img src="/klimatyzatory-scienne-haier/klimatyzator-haier-serene-plus-kolor-white-matt-indoor.webp"
                  alt="Klimatyzator ścienny Haier Serene Plus - jednostka wewnętrzna White Matt" width="300" height="300" fetchpriority="high">
           </div>
           <div class="img-footer">
@@ -149,7 +161,7 @@
         </div>
         <div class="img-container">
           <div class="img-main">
-            <img src="https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-haier/klimatyzator-haier-serene-plus-kolor-white-matt-indoor.webp"
+            <img src="/klimatyzatory-scienne-haier/klimatyzator-haier-serene-plus-kolor-white-matt-indoor.webp"
                  alt="Klimatyzator ścienny Haier Serene Plus - jednostka wewnętrzna Black Matt" width="300" height="300" loading="lazy">
           </div>
           <div class="img-footer">
@@ -159,7 +171,7 @@
         </div>
         <div class="img-container">
             <div class="img-main">
-              <img src="https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-haier/klimatyzator-haier-serene-plus-outdoor.webp"
+              <img src="/klimatyzatory-scienne-haier/klimatyzator-haier-serene-plus-outdoor.webp"
                    alt="Agregat zewnętrzny Haier Serene Plus" width="340" height="340" loading="lazy">
             </div>
             <div class="img-footer img-footer-outdoor">
@@ -321,45 +333,70 @@
     });
   </script>
 
-  <script src="cost-calculator.js"></script>
-
-  <script>
-    (function() {
-      var navToggle = document.getElementById('navToggle');
-      var navMenu = document.getElementById('navMenu');
-      var navOverlay = document.getElementById('navOverlay');
-      var navLinks = document.querySelectorAll('.nav-link, .btn-nav-cta');
-      var resizeTimeout;
-      setTimeout(function() { if(navMenu) navMenu.classList.add('menu-ready'); }, 100);
-      function toggleMenu() {
-        if(!navToggle || !navMenu) return;
-        navToggle.classList.toggle('active');
-        navMenu.classList.toggle('active');
-        if(navOverlay) navOverlay.classList.toggle('active');
-        var isExpanded = navToggle.classList.contains('active');
-        navToggle.setAttribute('aria-expanded', isExpanded);
-        document.body.style.overflow = isExpanded ? 'hidden' : '';
-      }
-      function closeMenu() {
-        if(!navToggle || !navMenu) return;
-        navToggle.classList.remove('active');
-        navMenu.classList.remove('active');
-        if(navOverlay) navOverlay.classList.remove('active');
-        navToggle.setAttribute('aria-expanded', 'false');
-        document.body.style.overflow = '';
-      }
-      if(navToggle) navToggle.addEventListener('click', toggleMenu);
-      navLinks.forEach(function(link) { link.addEventListener('click', closeMenu); });
-      document.addEventListener('keydown', function(e) { if (e.key === 'Escape' && navMenu && navMenu.classList.contains('active')) closeMenu(); });
-      window.addEventListener('resize', function() {
-        if(navMenu) navMenu.classList.remove('menu-ready');
-        if (window.innerWidth > 1100 && navMenu && navMenu.classList.contains('active')) closeMenu();
-        clearTimeout(resizeTimeout);
-        resizeTimeout = setTimeout(function() { if(navMenu) navMenu.classList.add('menu-ready'); }, 150);
-      });
-    })();
-  </script>
+  <script src="/cost-calculator.js"></script>
 
 <script src="../blue-bar-position.js"></script>
+<script data-proklima-nav>
+const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('nav-links');
+  const overlay = document.getElementById('nav-overlay');
+  const dropdownToggle = document.querySelector('.nav-dropdown-toggle');
+
+  function openMenu() {
+    hamburger.classList.add('active');
+    navLinks.classList.add('active');
+    overlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeMenu() {
+    hamburger.classList.remove('active');
+    navLinks.classList.remove('active');
+    overlay.classList.remove('active');
+    document.body.style.overflow = '';
+    // zamknij dropdown
+    const dropdown = document.querySelector('.nav-dropdown');
+    if (dropdown) dropdown.classList.remove('open');
+  }
+
+  hamburger.addEventListener('click', () => {
+    if (navLinks.classList.contains('active')) {
+      closeMenu();
+    } else {
+      openMenu();
+    }
+  });
+
+  // Zamknij menu po kliknięciu overlay
+  overlay.addEventListener('click', closeMenu);
+
+  // Zamknij menu po kliknięciu linku (nie dotyczy dropdown toggle)
+  navLinks.querySelectorAll('a').forEach(link => {
+    if (link.classList.contains('nav-dropdown-toggle')) return;
+    link.addEventListener('click', () => {
+      if (window.innerWidth <= 768) {
+        closeMenu();
+      }
+    });
+  });
+
+  // Dropdown "Dzielnice" na mobile — toggle open/close
+  if (dropdownToggle) {
+    dropdownToggle.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (window.innerWidth <= 768) {
+        const dropdown = dropdownToggle.closest('.nav-dropdown');
+        dropdown.classList.toggle('open');
+      }
+    });
+  }
+
+  // Zamknij menu przy resize do desktop
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 768) {
+      closeMenu();
+    }
+  });
+</script>
 </body>
 </html>

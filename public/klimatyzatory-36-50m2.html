@@ -12,35 +12,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
   </noscript>
 
-  <link rel="stylesheet" href="klimatyzatory-metraz.css">
+  <link rel="stylesheet" href="/klimatyzatory-metraz.css">
+<link rel="stylesheet" href="/navbar-style.css">
+  <link rel="canonical" href="https://montazklimatyzacjiwarszawa.pl/klimatyzatory-36-50m2">
 </head>
 <body>
 
 <!-- Overlay mobilne menu -->
-<div class="nav-overlay" id="navOverlay"></div>
-
-<!-- NAVBAR -->
-<header class="navbar" id="navbar">
-  <nav class="nav-container">
-    <a href="index.html" class="nav-logo">
-      <span class="logo-text">Klima</span><span class="logo-accent">Expert</span>
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="/" class="nav-logo" aria-label="Proklima - Strona główna">
+      <span class="logo-snowflake"></span>
+      <span class="logo-text-new">
+        <span class="logo-text-black">Pro</span><span class="logo-text-blue">klima</span>
+      </span>
     </a>
-    
-    <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-    
-    <ul class="nav-menu" id="navMenu">
-      <li><a href="#" class="nav-link">Klimatyzacja do domu i mieszkania</a></li>
-      <li><a href="#" class="nav-link">Montaż</a></li>
-      <li><a href="#" class="nav-link">Cennik</a></li>
-      <li><a href="#" class="nav-link">Realizacje</a></li>
-      <li><a href="#wycena" class="btn-nav-cta">Darmowa Wycena</a></li>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="/#klimatyzatory">Polecane</a></li>
+      <li><a href="/realizacje">Realizacje</a></li>
+      <li><a href="/#klimatyzatory-section">Klimatyzatory</a></li>
+      <li class="nav-dropdown">
+        <a href="#" class="nav-dropdown-toggle">Dzielnice ▾</a>
+        <ul class="nav-dropdown-menu">
+          <li><a href="/klimatyzacja-warszawa">Warszawa</a></li>
+          <li><a href="/montaz-klimatyzacji-targowek">Targówek</a></li>
+          <li><a href="/montaz-klimatyzacji-mokotow">Mokotów</a></li>
+          <li><a href="/montaz-klimatyzacji-wesola">Wesoła</a></li>
+        </ul>
+      </li>
+      <li><a href="/opinie">Opinie</a></li>
+      <li><a href="/kontakt">Kontakt</a></li>
+      <li><a href="tel:+48888806921" class="nav-cta">888 806 921</a></li>
     </ul>
-  </nav>
-</header>
+    <div class="nav-overlay" id="nav-overlay"></div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
 
 <!-- HERO SECTION -->
 <section class="hero">
@@ -66,10 +75,10 @@
   <div class="selection-box">
     <h3>Dobierz moc do pomieszczenia:</h3>
     <div class="area-buttons">
-      <a href="klimatyzatory-do-25m2.html" class="area-btn">do 25 m²</a>
-      <a href="klimatyzatory-26-35m2.html" class="area-btn">26 – 35 m²</a>
+      <a href="/klimatyzatory-do-25m2" class="area-btn">do 25 m²</a>
+      <a href="/klimatyzatory-26-35m2" class="area-btn">26 – 35 m²</a>
       <span class="area-btn active">36 – 50 m²</span>
-      <a href="klimatyzatory-51-80m2.html" class="area-btn">51 – 80 m²</a>
+      <a href="/klimatyzatory-51-80m2" class="area-btn">51 – 80 m²</a>
     </div>
   </div>
 </section>
@@ -83,7 +92,7 @@
 
 <!-- FOOTER -->
 <footer>
-  <p>&copy; <span id="year"></span> KlimaExpert. Wszelkie prawa zastrzeżone.</p>
+  <p>&copy; <span id="year"></span> Proklima. Wszelkie prawa zastrzeżone.</p>
 </footer>
 
 <script>
@@ -106,8 +115,8 @@
         ["+8°C", "Oszczędny", "Sprężarka 2-stopniowa"],
         ["Jonizator", "Filtry opcjonalnie"]
       ],
-      img: "https://udraznianierur.eu/klimatyzatory-scienne/gree-amber-prestige-gwh09yd-s6dba2a-indoor.webp",
-      detailsPage: "gree-amber-prestige-2-7kw.html"
+      img: "/klimatyzatory-scienne-gree/gree-amber-prestige-gwh09yd-s6dba2a-indoor.webp",
+      detailsPage: "/gree/gree-amber-prestige-2-7kw"
     },
     {
       id: "soyal",
@@ -120,8 +129,8 @@
       energyHeating: "A+++",
       colors: ["Biały"],
       features: [["Samooczyszczanie", "Wykrywanie ludzi", "Cicha praca", "Gorący start"]],
-      img: "https://udraznianierur.eu/klimatyzatory-scienne/klimatyzator-gree-soyal-GWH09AKC-K6DNA1A-indoor.webp",
-      detailsPage: "gree-soyal-2-7kw.html"
+      img: "/klimatyzatory-scienne-gree/klimatyzator-gree-soyal-GWH09AKC-K6DNA1A-indoor.webp",
+      detailsPage: "/gree/gree-soyal-2-7kw"
     },
     {
       id: "u-crown",
@@ -134,8 +143,8 @@
       energyHeating: "A++",
       colors: ["Szary", "Szampański"],
       features: [["Wi-Fi", "Grzanie", "Cichy", "Jonizacja"]],
-      img: "https://udraznianierur.eu/klimatyzatory-scienne/klimatyzator-scienny-gree-u-crown-GWH09UB-K6DNA4A-kolor-szampanski-indoor.webp",
-      detailsPage: "gree-u-crown-2-7kw.html"
+      img: "/klimatyzatory-scienne-gree/klimatyzator-scienny-gree-u-crown-GWH09UB-K6DNA4A-kolor-szampanski-indoor.webp",
+      detailsPage: "/gree/gree-u-crown-2-7kw"
     },
     {
       id: "airy",
@@ -148,8 +157,8 @@
       energyHeating: "A++",
       colors: ["Biały", "Czarny", "Szampański", "Szary"],
       features: [["Wi-Fi", "Tryb nocny", "Głos", "Grzanie"]],
-      img: "https://udraznianierur.eu/klimatyzatory-scienne/klimatyzator-scienny-gree-airy-GWH09AVEXF-K6DNA1A-kolor-grafitowy-indoor.webp",
-      detailsPage: "gree-airy-2-7kw.html"
+      img: "/klimatyzatory-scienne-gree/klimatyzator-scienny-gree-airy-GWH09AVEXF-K6DNA1A-kolor-grafitowy-indoor.webp",
+      detailsPage: "/gree/gree-airy-2-7kw"
     },
     {
       id: "pular",
@@ -162,8 +171,8 @@
       energyHeating: "A+",
       colors: ["Biały połysk", "Biały mat"],
       features: [["Wi-Fi", "Grzanie", "Cichy", "Osuszanie"]],
-      img: "https://udraznianierur.eu/klimatyzatory-scienne/klimatyzator-scienny-gree-pular-GWH12AGBXB-K6DNA1A-biały-indoor.webp",
-      detailsPage: "gree-pular-2-7kw.html"
+      img: "/klimatyzatory-scienne-gree/klimatyzator-scienny-gree-pular-GWH12AGBXB-K6DNA1A-bialy-indoor.webp",
+      detailsPage: "/gree/gree-pular-2-5kw"
     },
     {
       id: "clivia",
@@ -176,8 +185,8 @@
       energyHeating: "A+",
       colors: ["Beżowy", "Granatowy", "Srebrny", "Satynowa czerń", "Biały"],
       features: [["Wi-Fi", "Grzanie", "Cichy", "Design"]],
-      img: "https://udraznianierur.eu/klimatyzatory-scienne/klimatyzator-gree-clivia-GWH12AUCXB-K6DNA1A-kolor-granatowy-indoor.webp",
-      detailsPage: "gree-clivia-2-7kw.html"
+      img: "/klimatyzatory-scienne-gree/klimatyzator-gree-clivia-GWH12AUCXB-K6DNA1A-kolor-granatowy-indoor.webp",
+      detailsPage: "/gree/gree-clivia-2-7kw"
     },
     {
       id: "g-tech",
@@ -190,8 +199,8 @@
       energyHeating: "A++",
       colors: ["Różowe złoto", "Srebrny"],
       features: [["Wi-Fi", "Grzanie", "Cichy", "Design"]],
-      img: "https://udraznianierur.eu/klimatyzatory-scienne/klimatyzator-gree-g-tech-GWH09YD-S6DBA2A-kolor-rozowe-zloto-indoor.webp",
-      detailsPage: "gree-g-tech-2-7kw.html"
+      img: "/klimatyzatory-scienne-gree/klimatyzator-gree-g-tech-GWH09YD-S6DBA2A-kolor-rozowe-zloto-indoor.webp",
+      detailsPage: "/gree/gree-g-tech-2-7kw"
     },
     {
       id: "lomo-luxury-plus",
@@ -204,8 +213,8 @@
       energyHeating: "A+",
       colors: ["Biały"],
       features: [["Wi-Fi", "Grzanie", "Cichy", "Osuszanie"]],
-      img: "https://udraznianierur.eu/klimatyzatory-scienne/klimatyzator-scienny-gree-lomo-luxury-plus-gwh12qc-k6dnb2f-indoor.webp",
-      detailsPage: "gree-lomo-luxury-plus-2-7kw.html"
+      img: "/klimatyzatory-scienne-gree/klimatyzator-scienny-gree-lomo-luxury-plus-gwh12qc-k6dnb2f-indoor.webp",
+      detailsPage: "/gree/gree-lomo-luxury-plus-2-7kw"
     },
     {
       id: "konsola",
@@ -218,8 +227,8 @@
       energyHeating: "A+",
       colors: ["Biały"],
       features: [["Wi-Fi", "Grzanie", "Podłogowy", "Cichy"]],
-      img: "https://udraznianierur.eu/klimatyzatory-scienne/klimatyzator-gree-konsola-kolor-bialy-indoor.webp",
-      detailsPage: "gree-konsola-2-7kw.html"
+      img: "/klimatyzatory-scienne-gree/klimatyzator-gree-konsola-kolor-bialy-indoor.webp",
+      detailsPage: "/gree/gree-konsola-2-7kw"
     },
     {
       id: "fairy",
@@ -232,8 +241,8 @@
       energyHeating: "A+",
       colors: ["Biały"],
       features: [["Wi-Fi", "Grzanie", "Cichy", "Jonizacja"]],
-      img: "https://udraznianierur.eu/klimatyzatory-scienne/klimatyzator-gree-fairy-kolor-srebrny-indoor.webp",
-      detailsPage: "gree-fairy-2-7kw.html"
+      img: "/klimatyzatory-scienne-gree/klimatyzator-gree-fairy-kolor-srebrny-indoor.webp",
+      detailsPage: "/gree/gree-fairy-2-7kw"
     },
     {
       id: "amber-standard",
@@ -246,8 +255,8 @@
       energyHeating: "A+",
       colors: ["Biały"],
       features: [["Wi-Fi", "Grzanie", "Cichy", "Jonizacja"]],
-      img: "https://udraznianierur.eu/klimatyzatory-scienne/klimatyzator-gree-amber-standard-kolor-czarny-indoor.webp",
-      detailsPage: "gree-amber-standard-2-7kw.html"
+      img: "/klimatyzatory-scienne-gree/klimatyzator-gree-amber-standard-kolor-czarny-indoor.webp",
+      detailsPage: "/gree/gree-amber-standard-2-7kw"
     },
     {
       id: "pular-pro",
@@ -260,8 +269,8 @@
       energyHeating: "A+",
       colors: ["Czarny mat", "Czarny połysk", "Biały połysk", "Biały mat"],
       features: [["Wi-Fi", "Grzanie", "Cichy", "Osuszanie"]],
-      img: "https://udraznianierur.eu/klimatyzatory-scienne/klimatyzator-gree-pular-pro-kolor-dark-indoor.webp",
-      detailsPage: "gree-pular-pro-2-7kw.html"
+      img: "/klimatyzatory-scienne-gree/klimatyzator-gree-pular-pro-kolor-dark-indoor.webp",
+      detailsPage: "/gree/gree-pular-pro-2-7kw"
     },
     {
       id: "cosmo",
@@ -274,8 +283,8 @@
       energyHeating: "A++",
       colors: ["Perłowy"],
       features: [["Wi-Fi", "Filtr HEPA", "Osuszanie", "Samoczyszczenie"]],
-      img: "https://udraznianierur.eu/klimatyzatory-scienne/klimatyzator-gree-cosmo-kolor-pearl-indoor.webp",
-      detailsPage: "gree-cosmo-2-7kw.html"
+      img: "/klimatyzatory-scienne-gree/klimatyzator-gree-cosmo-kolor-pearl-indoor.webp",
+      detailsPage: "/gree/gree-cosmo-pearl-2-7kw"
     }
   ];
 
@@ -287,7 +296,7 @@
       energyCooling: "A+++", energyHeating: "A+++", colors: ["Biały"],
       features: [["Wi-Fi", "Windless", "Jonizator iAIR", "−30°C"]],
       img: "/klimatyzatory-scienne-rotenso/klimatyzator-rotenso-fresh-x-F26Wi-kolor-bialy-indoor.webp",
-      detailsPage: "rotenso-fresh-2-6kw.html"
+      detailsPage: "/rotenso/rotenso-fresh-2-6kw"
     },
     {
       id: "versu-mirror", name: "Versu Mirror X", series: ["Dom", "Mieszkanie"], areas: ["25", "35", "50"],
@@ -295,7 +304,7 @@
       energyCooling: "A++", energyHeating: "A++", colors: ["Grafitowe lustro"],
       features: [["Wi-Fi", "Design", "4D eMOTO", "Grzanie"]],
       img: "/klimatyzatory-scienne-rotenso/klimatyzator-rotenso-versu-mirror-kolor-grafitowe-lustro-indoor.webp",
-      detailsPage: "rotenso-versu-mirror-2-6kw.html"
+      detailsPage: "/rotenso/rotenso-versu-mirror-2-6kw"
     },
     {
       id: "versu-pure", name: "Versu Pure X", series: ["Dom", "Mieszkanie"], areas: ["25", "35", "50"],
@@ -303,7 +312,7 @@
       energyCooling: "A++", energyHeating: "A++", colors: ["Biały mat"],
       features: [["Wi-Fi", "Design", "4D eMOTO", "Grzanie"]],
       img: "/klimatyzatory-scienne-rotenso/klimatyzator-rotenso-versu-pure-kolor-bialy-mat-indoor.webp",
-      detailsPage: "rotenso-versu-pure-2-6kw.html"
+      detailsPage: "/rotenso/rotenso-versu-pure-2-6kw"
     },
     {
       id: "versu-cloth-stone", name: "Versu Cloth Stone X", series: ["Dom"], areas: ["25", "35", "50"],
@@ -311,7 +320,7 @@
       energyCooling: "A++", energyHeating: "A++", colors: ["Tkanina Stone"],
       features: [["Wi-Fi", "Tkanina", "4D eMOTO", "Grzanie"]],
       img: "/klimatyzatory-scienne-rotenso/klimatyzator-rotenso-versu-cloth-stone-kolor-tkanina-stone-indoor.webp",
-      detailsPage: "rotenso-versu-cloth-stone-2-6kw.html"
+      detailsPage: "/rotenso/rotenso-versu-cloth-stone-2-6kw"
     },
     {
       id: "versu-cloth-caramel", name: "Versu Cloth Caramel X", series: ["Dom"], areas: ["25", "35", "50"],
@@ -319,7 +328,7 @@
       energyCooling: "A++", energyHeating: "A++", colors: ["Tkanina Caramel"],
       features: [["Wi-Fi", "Tkanina", "4D eMOTO", "Grzanie"]],
       img: "/klimatyzatory-scienne-rotenso/klimatyzator-rotenso-versu-cloth-caramel-kolor-tkanina-caramel-indoor.webp",
-      detailsPage: "rotenso-versu-cloth-caramel-2-6kw.html"
+      detailsPage: "/rotenso/rotenso-versu-cloth-caramel-2-6kw"
     },
     {
       id: "revio", name: "Revio X", series: ["Mieszkanie", "Dom"], areas: ["25", "35", "50", "80"],
@@ -327,7 +336,7 @@
       energyCooling: "A++", energyHeating: "A++", colors: ["Biały"],
       features: [["Wi-Fi", "Grzanie", "4D eMOTO", "Cichy"]],
       img: "/klimatyzatory-scienne-rotenso/klimatyzator-rotenso-revio-kolor-bialy-indoor.webp",
-      detailsPage: "rotenso-revio-2-6kw.html"
+      detailsPage: "/rotenso/rotenso-revio-2-6kw"
     },
     {
       id: "teta", name: "Teta X", series: ["Mieszkanie"], areas: ["25", "35", "50", "80"],
@@ -335,7 +344,7 @@
       energyCooling: "A++", energyHeating: "A++", colors: ["Biały"],
       features: [["Wi-Fi", "Grzanie", "Cichy", "Kompaktowy"]],
       img: "/klimatyzatory-scienne-rotenso/klimatyzator-rotenso-teta-kolor-bialy-indoor.webp",
-      detailsPage: "rotenso-teta-2-6kw.html"
+      detailsPage: "/rotenso/rotenso-teta-2-6kw"
     },
     {
       id: "teta-mirror", name: "Teta Mirror X", series: ["Mieszkanie", "Dom"], areas: ["25", "35", "50", "80"],
@@ -343,7 +352,7 @@
       energyCooling: "A++", energyHeating: "A++", colors: ["Grafitowe lustro"],
       features: [["Wi-Fi", "Design", "Cichy", "Grzanie"]],
       img: "/klimatyzatory-scienne-rotenso/klimatyzator-rotenso-teta-mirror-kolor-czarny-indoor.webp",
-      detailsPage: "rotenso-teta-mirror-2-6kw.html"
+      detailsPage: "/rotenso/rotenso-teta-mirror-2-6kw"
     },
     {
       id: "elis", name: "Elis X", series: ["Mieszkanie", "Dom"], areas: ["25", "35", "50", "80"],
@@ -351,7 +360,7 @@
       energyCooling: "A++", energyHeating: "A++", colors: ["Grafitowy"],
       features: [["Wi-Fi", "Szkło", "Cichy", "Grzanie"]],
       img: "/klimatyzatory-scienne-rotenso/klimatyzator-rotenso-elis-kolor-grafitowy-indoor.webp",
-      detailsPage: "rotenso-elis-2-6kw.html"
+      detailsPage: "/rotenso/rotenso-elis-2-6kw"
     },
     {
       id: "elis-silver", name: "Elis Silver X", series: ["Mieszkanie", "Dom"], areas: ["25", "35", "50", "80"],
@@ -359,7 +368,7 @@
       energyCooling: "A++", energyHeating: "A++", colors: ["Srebrny"],
       features: [["Wi-Fi", "Szkło", "Cichy", "Grzanie"]],
       img: "/klimatyzatory-scienne-rotenso/klimatyzator-rotenso-elis-silver-kolor-srebrny-indoor.webp",
-      detailsPage: "rotenso-elis-silver-2-6kw.html"
+      detailsPage: "/rotenso/rotenso-elis-silver-2-6kw"
     },
     {
       id: "imoto", name: "Imoto X", series: ["Mieszkanie"], areas: ["25", "35", "50"],
@@ -367,7 +376,7 @@
       energyCooling: "A++", energyHeating: "A++", colors: ["Biały"],
       features: [["Wi-Fi", "Grzanie", "Cichy", "Osuszanie"]],
       img: "/klimatyzatory-scienne-rotenso/klimatyzator-rotenso-imoto-kolor-bialy-indoor.webp",
-      detailsPage: "rotenso-imoto-2-6kw.html"
+      detailsPage: "/rotenso/rotenso-imoto-2-6kw"
     },
     {
       id: "ukura", name: "Ukura X", series: ["Mieszkanie"], areas: ["25", "35", "50"],
@@ -375,7 +384,7 @@
       energyCooling: "A++", energyHeating: "A+", colors: ["Biały"],
       features: [["Wi-Fi", "Grzanie", "Cichy", "Ekonomiczny"]],
       img: "/klimatyzatory-scienne-rotenso/klimatyzator-rotenso-ukura-kolor-bialy-indoor.webp",
-      detailsPage: "rotenso-ukura-2-6kw.html"
+      detailsPage: "/rotenso/rotenso-ukura-2-6kw"
     },
     {
       id: "ukura-h", name: "Ukura H", series: ["Mieszkanie"], areas: ["25", "35", "50"],
@@ -383,7 +392,7 @@
       energyCooling: "A++", energyHeating: "A+", colors: ["Biały"],
       features: [["Grzanie", "Cichy", "Ekonomiczny", "Prosty"]],
       img: "/klimatyzatory-scienne-rotenso/klimatyzator-rotenso-ukura-kolor-bialy-indoor.webp",
-      detailsPage: "rotenso-ukura-h-2-6kw.html"
+      detailsPage: "/rotenso/rotenso-ukura-h-2-6kw"
     },
     {
       id: "roni", name: "Roni X", series: ["Mieszkanie"], areas: ["25", "35", "50"],
@@ -391,7 +400,7 @@
       energyCooling: "A++", energyHeating: "A+", colors: ["Biały"],
       features: [["Wi-Fi", "Kompaktowy", "Cichy", "Grzanie"]],
       img: "/klimatyzatory-scienne-rotenso/klimatyzator-rotenso-roni-kolor-bialy-indoor.webp",
-      detailsPage: "rotenso-roni-2-6kw.html"
+      detailsPage: "/rotenso/rotenso-roni-2-6kw"
     }
   ];
 
@@ -403,7 +412,7 @@
       energyCooling: "A+++", energyHeating: "A+++", colors: ["Biały"],
       features: [["Wi-Fi", "Self Clean", "Grzanie"]],
       img: "/klimatyzatory-scienne-haier/klimatyzator-haier-jade-plus-kolor-bialy-indoor.webp",
-      detailsPage: "haier/haier-jade-plus-2-6kw.html"
+      detailsPage: "/haier/haier-jade-plus-2-6kw"
     },
     {
       id: "expert-plus", name: "Expert Plus", series: ["Dom"], areas: ["25", "35", "50"],
@@ -411,7 +420,7 @@
       energyCooling: "A+++", energyHeating: "A++", colors: ["White Matt", "Black Matt"],
       features: [["Wi-Fi", "UV-C", "Self Clean", "Cichy"]],
       img: "/klimatyzatory-scienne-haier/klimatyzator-haier-expert-plus-kolor-white-matt-indoor.webp",
-      detailsPage: "haier/haier-expert-plus-2-8kw.html"
+      detailsPage: "/haier/haier-expert-plus-2-8kw"
     },
     {
       id: "flexis-plus", name: "Flexis Plus", series: ["Dom"], areas: ["25", "35", "50", "80"],
@@ -419,7 +428,7 @@
       energyCooling: "A+++", energyHeating: "A++", colors: ["White Matt", "Black Matt", "White Shine", "Silver Shine"],
       features: [["Wi-Fi", "UV-C", "Self Clean", "Cichy"]],
       img: "/klimatyzatory-scienne-haier/klimatyzator-haier-flexis-plus-kolor-white-matt-indoor.webp",
-      detailsPage: "haier/haier-flexis-plus-2-6kw.html"
+      detailsPage: "/haier/haier-flexis-plus-2-6kw"
     },
     {
       id: "nordic-flexis-plus", name: "Nordic Flexis Plus", series: ["Dom"], areas: ["25", "35", "50"],
@@ -427,7 +436,7 @@
       energyCooling: "A+++", energyHeating: "A++", colors: ["White Matt", "Black Matt", "White Shine", "Silver Shine"],
       features: [["Wi-Fi", "UV-C", "Self Clean", "Cichy"]],
       img: "/klimatyzatory-scienne-haier/klimatyzator-haier-nordic-flexis-plus-kolor-white-matt-indoor.webp",
-      detailsPage: "haier/haier-nordic-flexis-plus-2-6kw.html"
+      detailsPage: "/haier/haier-nordic-flexis-plus-2-6kw"
     },
     {
       id: "serene-plus", name: "Serene Plus", series: ["Dom"], areas: ["25", "35", "50", "80"],
@@ -435,7 +444,7 @@
       energyCooling: "A+++", energyHeating: "A++", colors: ["White Matt", "Black Matt"],
       features: [["Wi-Fi", "UV-C", "Self Clean", "Cichy"]],
       img: "/klimatyzatory-scienne-haier/klimatyzator-haier-serene-plus-kolor-white-matt-indoor.webp",
-      detailsPage: "haier/haier-serene-plus-2-6kw.html"
+      detailsPage: "/haier/haier-serene-plus-2-6kw"
     },
     {
       id: "pearl-premium-plus", name: "Pearl Premium Plus", series: ["Dom"], areas: ["25", "35", "50", "80"],
@@ -443,7 +452,7 @@
       energyCooling: "A+++", energyHeating: "A++", colors: ["Biały"],
       features: [["Wi-Fi", "UV-C", "Self Clean", "Cichy"]],
       img: "/klimatyzatory-scienne-haier/klimatyzator-haier-pearl-premium-plus-kolor-bialy-indoor.webp",
-      detailsPage: "haier/haier-pearl-premium-plus-2-7kw.html"
+      detailsPage: "/haier/haier-pearl-premium-plus-2-7kw"
     },
     {
       id: "pearl-neo-plus", name: "Pearl Neo Plus", series: ["Dom"], areas: ["25", "35", "50", "70"],
@@ -451,7 +460,7 @@
       energyCooling: "A++", energyHeating: "A+", colors: ["Biały"],
       features: [["Wi-Fi", "UV-C", "Self Clean", "Cichy"]],
       img: "/klimatyzatory-scienne-haier/klimatyzator-haier-pearl-neo-plus-kolor-bialy-indoor.webp",
-      detailsPage: "haier/haier-pearl-neo-plus-2-7kw.html"
+      detailsPage: "/haier/haier-pearl-neo-plus-2-7kw"
     },
     {
       id: "pearl-plus", name: "Pearl Plus", series: ["Dom"], areas: ["25", "35", "50", "70"],
@@ -459,7 +468,7 @@
       energyCooling: "A++", energyHeating: "A+", colors: ["Biały"],
       features: [["Wi-Fi", "UV-C", "Self Clean", "Cichy"]],
       img: "/klimatyzatory-scienne-haier/klimatyzator-haier-pearl-plus-kolor-bialy-indoor.webp",
-      detailsPage: "haier/haier-pearl-plus-2-6kw.html"
+      detailsPage: "/haier/haier-pearl-plus-2-6kw"
     },
     {
       id: "revive-plus", name: "Revive Plus", series: ["Dom"], areas: ["25", "35", "50", "70"],
@@ -467,7 +476,7 @@
       energyCooling: "A++", energyHeating: "A+", colors: ["White Shine", "Black Shine"],
       features: [["Wi-Fi", "Self Clean", "Cichy"]],
       img: "/klimatyzatory-scienne-haier/klimatyzator-haier-revive-plus-kolor-czarny-indoor.webp",
-      detailsPage: "haier/haier-revive-plus-2-7kw.html"
+      detailsPage: "/haier/haier-revive-plus-2-7kw"
     },
     {
       id: "tayga-plus", name: "Tayga Plus", series: ["Dom"], areas: ["25", "35", "50", "70"],
@@ -475,7 +484,7 @@
       energyCooling: "A++", energyHeating: "A+", colors: ["Biały"],
       features: [["Wi-Fi", "Self Clean", "Cichy"]],
       img: "/klimatyzatory-scienne-haier/klimatyzator-haier-tayga-plus-kolor-bialy-indoor.webp",
-      detailsPage: "haier/haier-tayga-plus-2-6kw.html"
+      detailsPage: "/haier/haier-tayga-plus-2-6kw"
     }
   ];
 
@@ -592,43 +601,69 @@
     }
   }
   createHeroSnowflakes();
-
-  // Hamburger menu
-  (function() {
-    const navToggle = document.getElementById('navToggle');
-    const navMenu = document.getElementById('navMenu');
-    const navOverlay = document.getElementById('navOverlay');
-    const navLinks = document.querySelectorAll('.nav-link, .btn-nav-cta');
-
-    setTimeout(() => navMenu.classList.add('menu-ready'), 100);
-
-    function toggleMenu() {
-      navToggle.classList.toggle('active');
-      navMenu.classList.toggle('active');
-      navOverlay.classList.toggle('active');
-      document.body.style.overflow = navToggle.classList.contains('active') ? 'hidden' : '';
-    }
-
-    function closeMenu() {
-      navToggle.classList.remove('active');
-      navMenu.classList.remove('active');
-      navOverlay.classList.remove('active');
-      document.body.style.overflow = '';
-    }
-
-    navToggle.addEventListener('click', toggleMenu);
-    navOverlay.addEventListener('click', closeMenu);
-    navLinks.forEach(link => link.addEventListener('click', closeMenu));
-    
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && navMenu.classList.contains('active')) closeMenu();
-    });
-
-    window.addEventListener('resize', () => {
-      if (window.innerWidth > 1100 && navMenu.classList.contains('active')) closeMenu();
-    });
-  })();
 </script>
 
+<script data-proklima-nav>
+const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('nav-links');
+  const overlay = document.getElementById('nav-overlay');
+  const dropdownToggle = document.querySelector('.nav-dropdown-toggle');
+
+  function openMenu() {
+    hamburger.classList.add('active');
+    navLinks.classList.add('active');
+    overlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeMenu() {
+    hamburger.classList.remove('active');
+    navLinks.classList.remove('active');
+    overlay.classList.remove('active');
+    document.body.style.overflow = '';
+    // zamknij dropdown
+    const dropdown = document.querySelector('.nav-dropdown');
+    if (dropdown) dropdown.classList.remove('open');
+  }
+
+  hamburger.addEventListener('click', () => {
+    if (navLinks.classList.contains('active')) {
+      closeMenu();
+    } else {
+      openMenu();
+    }
+  });
+
+  // Zamknij menu po kliknięciu overlay
+  overlay.addEventListener('click', closeMenu);
+
+  // Zamknij menu po kliknięciu linku (nie dotyczy dropdown toggle)
+  navLinks.querySelectorAll('a').forEach(link => {
+    if (link.classList.contains('nav-dropdown-toggle')) return;
+    link.addEventListener('click', () => {
+      if (window.innerWidth <= 768) {
+        closeMenu();
+      }
+    });
+  });
+
+  // Dropdown "Dzielnice" na mobile — toggle open/close
+  if (dropdownToggle) {
+    dropdownToggle.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (window.innerWidth <= 768) {
+        const dropdown = dropdownToggle.closest('.nav-dropdown');
+        dropdown.classList.toggle('open');
+      }
+    });
+  }
+
+  // Zamknij menu przy resize do desktop
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 768) {
+      closeMenu();
+    }
+  });
+</script>
 </body>
 </html>

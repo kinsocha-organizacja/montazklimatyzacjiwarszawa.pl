@@ -63,11 +63,24 @@ jobs:
           username: ${{ secrets.REMOTE_USER }}
           password: ${{ secrets.REMOTE_PASSWORD }}
           local-dir: ${{ env.BUILD_PATH }}/dist/
-          server-dir: public_html/
-          security: loose
+          server-dir: /montazklimatyzacjiwarszawa.pl/public_html/
+          protocol: ftps
+          timeout: 120000
           state-name: .ftp-deploy-sync-state-v2.json
           exclude: |
             **/.git*
             **/.git*/**
             **/src/**
             **/node_modules/**
+      # Stara domena montaz-serwis-klimatyzacji.pl dostaje tylko .htaccess z 301 na nową domenę.
+      - name: 📂 301 ze starej domeny
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.REMOTE_HOST }}
+          username: ${{ secrets.REMOTE_USER }}
+          password: ${{ secrets.REMOTE_PASSWORD }}
+          local-dir: ./stara-domena/
+          server-dir: /montaz-serwis-klimatyzacji.pl/public_html/
+          protocol: ftps
+          timeout: 120000
+          state-name: .ftp-deploy-sync-state-301.json

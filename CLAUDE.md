@@ -3,7 +3,7 @@
 ## Opis projektu
 
 Strona internetowa firmy świadczącej usługi montażu i serwisu klimatyzacji.
-Domena: montaz-serwis-klimatyzacji.pl
+Domena: montazklimatyzacjiwarszawa.pl
 Język strony: polski
 
 ## Stack technologiczny

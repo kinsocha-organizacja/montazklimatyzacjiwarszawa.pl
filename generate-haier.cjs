@@ -816,7 +816,7 @@ function generateProductPage(seriesData, variantIndex) {
     const loading = i === 0 ? 'fetchpriority="high"' : 'loading="lazy"';
     return `        <div class="img-container">
           <div class="img-main">
-            <img src="https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-haier/placeholder-haier-${s.slug}-indoor.webp"
+            <img src="/klimatyzatory-scienne-haier/placeholder-haier-${s.slug}-indoor.webp"
                  alt="Klimatyzator ścienny Haier ${s.series} - jednostka wewnętrzna ${color}" width="300" height="300" ${loading}>
           </div>
           <div class="img-footer">
@@ -828,7 +828,7 @@ function generateProductPage(seriesData, variantIndex) {
 
   const outdoorImage = `        <div class="img-container">
             <div class="img-main">
-              <img src="https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-haier/placeholder-haier-${s.slug}-outdoor.webp"
+              <img src="/klimatyzatory-scienne-haier/placeholder-haier-${s.slug}-outdoor.webp"
                    alt="Agregat zewnętrzny Haier ${s.series}" width="340" height="340" loading="lazy">
             </div>
             <div class="img-footer img-footer-outdoor">
@@ -861,7 +861,7 @@ function generateProductPage(seriesData, variantIndex) {
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
   </noscript>
 
-  <link rel="stylesheet" href="https://montaz-serwis-klimatyzacji.pl/style.css">
+  <link rel="stylesheet" href="https://montazklimatyzacjiwarszawa.pl/style.css">
   <link rel="stylesheet" href="../navbar-style.css">
 </head>
 <body>
@@ -1130,7 +1130,7 @@ function generateCatalogPage() {
       energyHeating: "${s.variants[0].energyHeating}",
       colors: [${colorsStr}],
       features: [[${featShort.join(', ')}]],
-      img: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-haier/placeholder-haier-${s.slug}-indoor.webp",
+      img: "/klimatyzatory-scienne-haier/placeholder-haier-${s.slug}-indoor.webp",
       detailsPage: "haier-${s.slug}-${s.variants[0].powerUrl}.html"
     }`;
   }).join(',\n');

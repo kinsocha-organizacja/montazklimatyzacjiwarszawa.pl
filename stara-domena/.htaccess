@@ -1,0 +1,5 @@
+# montaz-serwis-klimatyzacji.pl -> montazklimatyzacjiwarszawa.pl (ten sam adres podstrony, jednym skokiem)
+Options -MultiViews -Indexes
+RewriteEngine On
+RewriteRule ^(.*?)/?index(\.html)?$ https://montazklimatyzacjiwarszawa.pl/$1 [R=301,L]
+RewriteRule ^(.*?)(\.html|/)?$ https://montazklimatyzacjiwarszawa.pl/$1 [R=301,L]

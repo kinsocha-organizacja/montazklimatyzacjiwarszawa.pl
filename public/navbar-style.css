@@ -1,9 +1,8 @@
 /* ============================================
-   NAVBAR STYLES - Dobry Klimat
-   Desktop + Tablet + Mobile
+   NAVBAR - wspólny dla stron HTML w public/
+   GENEROWANY przez scripts/sync-navbar.cjs z css/style-index.css.
+   Nie edytować ręcznie - zmiany robić w style-index.css i uruchomić skrypt.
    ============================================ */
-
-/* === NAVBAR GŁÓWNE STYLE (DESKTOP) === */
 .navbar {
   position: fixed;
   top: 12px;
@@ -29,11 +28,7 @@
     border-radius: 0;
   }
 }
-
-.navbar.scrolled {
-  box-shadow: var(--shadow);
-}
-
+.navbar.scrolled { box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
 .nav-container {
   max-width: 1280px;
   margin: 0 auto;
@@ -61,13 +56,11 @@
     transform: translateY(-50%);
   }
 }
-
-/* === LOGO === */
 .logo,
 .nav-logo {
   font-size: 24px;
   font-weight: 800;
-  color: var(--primary);
+  color: #1a3a5c;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -80,15 +73,11 @@
     margin-left: 0;
   }
 }
-
-.logo span {
-  color: var(--accent);
-}
-
+.logo span { color: #2563eb; }
 .logo-icon {
   width: 36px;
   height: 36px;
-  background: linear-gradient(135deg, var(--accent) 0%, var(--primary) 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #1a3a5c 100%);
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -96,58 +85,21 @@
   color: white;
   font-size: 18px;
 }
-
-/* === NOWE LOGO DOBRY KLIMAT (snowflake) === */
-.logo-snowflake {
-  font-size: 34px;
-}
-
-.logo-text-new {
-  font-size: 22px;
-  font-weight: 800;
-}
-
-.logo-text-black {
-  color: #1a3a52;
-}
-
-.logo-text-blue {
-  color: #2563eb;
-}
-
-/* === NAV LINKS (DESKTOP) === */
 .nav-links {
-  display: flex !important;
-  flex-direction: row !important;
+  display: flex;
   align-items: center;
   gap: 32px;
-  list-style: none !important;
-  list-style-type: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
+  list-style: none;
 }
-
-.nav-links li {
-  list-style: none !important;
-  list-style-type: none !important;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-}
-
 .nav-links a {
-  color: var(--text);
+  color: #1e293b;
   text-decoration: none;
   font-weight: 500;
   font-size: 15px;
   transition: color 0.2s;
 }
+.nav-links a:hover { color: #2563eb; }
 
-.nav-links a:hover {
-  color: var(--accent);
-}
-
-/* === NAV DROPDOWN === */
 .nav-dropdown { position: relative; }
 .nav-dropdown-toggle { cursor: pointer; }
 .nav-dropdown-menu {
@@ -156,14 +108,13 @@
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
-  background: #fff;
-  border: 1px solid var(--border);
-  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
   box-shadow: 0 8px 24px rgba(0,0,0,0.10);
-  min-width: 170px;
-  padding: 8px 0;
   list-style: none;
-  margin: 0;
+  padding: 18px 0 6px;
+  min-width: 180px;
   z-index: 200;
 }
 .nav-dropdown:hover .nav-dropdown-menu,
@@ -171,47 +122,40 @@
 .nav-dropdown-menu li a {
   display: block;
   padding: 9px 18px;
-  font-size: 14px;
-  color: var(--text);
-  text-decoration: none;
   white-space: nowrap;
+  font-size: 14px;
+  color: #1e293b;
+  text-decoration: none;
   transition: background 0.15s, color 0.15s;
 }
 .nav-dropdown-menu li a:hover {
-  background: var(--bg, #f8fafc);
-  color: var(--accent);
+  background: #f8fafc;
+  color: #2563eb;
 }
 
-/* === NAV PHONE === */
 .nav-phone {
   display: flex;
   align-items: center;
   gap: 8px;
-  color: var(--primary);
+  color: #1a3a5c;
   font-weight: 700;
   font-size: 16px;
 }
-
-.nav-phone svg {
-  color: var(--accent);
-}
-
-/* === NAV CTA BUTTON === */
+.nav-phone svg { color: #2563eb; }
 .nav-cta {
-  background: linear-gradient(135deg, var(--accent) 0%, #3b82f6 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
   color: white !important;
   padding: 12px 24px;
   border-radius: 5px;
   font-weight: 600 !important;
   transition: transform 0.2s, box-shadow 0.2s;
 }
-
 .nav-cta:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);
 }
 
-/* === HAMBURGER BUTTON === */
+/* Mobile menu */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -221,187 +165,74 @@
   cursor: pointer;
   padding: 8px;
 }
-
 .hamburger span {
   width: 24px;
   height: 2px;
-  background: var(--primary);
+  background: #1a3a5c;
   border-radius: 2px;
   transition: 0.3s;
 }
-
-/* === NAV TOGGLE (alternatywny hamburger) === */
-.nav-toggle {
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 28px;
-  height: 20px;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  z-index: 1002;
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
 }
-
-.nav-toggle span {
-  display: block;
-  width: 100%;
-  height: 3px;
-  background: var(--primary);
-  border-radius: 2px;
-  transition: all 0.3s ease;
-}
-
-.nav-toggle.active span:nth-child(1) {
-  transform: rotate(45deg) translate(6px, 6px);
-}
-
-.nav-toggle.active span:nth-child(2) {
+.hamburger.active span:nth-child(2) {
   opacity: 0;
 }
-
-.nav-toggle.active span:nth-child(3) {
-  transform: rotate(-45deg) translate(6px, -6px);
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
 }
-
-/* === NAV OVERLAY (tło przy otwartym menu mobile) === */
 .nav-overlay {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.5);
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s ease;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.4);
   z-index: 999;
 }
-
 .nav-overlay.active {
-  opacity: 1;
-  visibility: visible;
+  display: block;
 }
 
-/* ============================================
-   RESPONSIVE - TABLET & MOBILE (max 1100px)
-   ============================================ */
-@media (max-width: 1100px) {
-  
-  /* Pokaż hamburger */
-  .hamburger {
-    display: flex;
-  }
-  
-  .nav-toggle {
-    display: flex;
-  }
-  
-  /* Nav links - wysuwane menu z prawej */
-  .nav-links {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 280px;
-    height: 100vh;
-    background: #fff;
-    flex-direction: column !important;
-    justify-content: flex-start;
-    align-items: stretch;
-    padding: 80px 25px 30px 25px !important;
-    gap: 0;
-    box-shadow: -5px 0 30px rgba(0,0,0,0.15);
-    z-index: 1001;
-    overflow-y: auto;
-    transform: translateX(100%);
-    visibility: hidden;
-    transition: transform 0.3s ease, visibility 0.3s ease;
-  }
-  
-  .nav-links.active {
-    transform: translateX(0);
-    visibility: visible;
-  }
-  
-  .nav-links li {
-    width: 100%;
-    border-bottom: 1px solid var(--border);
-    display: block !important;
-    list-style: none !important;
-  }
-  
-  .nav-links li:last-child {
-    border-bottom: none;
-    margin-top: 15px;
-  }
-  
-  .nav-links a {
-    display: block;
-    padding: 15px 0;
-    font-size: 16px;
-  }
-  
-  .nav-cta {
-    display: block;
-    text-align: center;
-    width: 100%;
-    padding: 14px 20px;
-  }
-
-  .nav-dropdown-menu { display: block; position: static; transform: none; box-shadow: none; border: none; border-radius: 0; padding: 0; background: var(--bg, #f8fafc); }
-  .nav-dropdown-menu li a { padding: 10px 36px; font-size: 15px; color: var(--muted); }
-
-  /* Nav menu (alternatywna wersja) */
-  .nav-menu {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 280px;
-    height: 100vh;
-    background: #fff;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: stretch;
-    padding: 80px 25px 30px 25px;
-    gap: 0;
-    box-shadow: -5px 0 30px rgba(0,0,0,0.15);
-    z-index: 1001;
-    overflow-y: auto;
-    transform: translateX(100%);
-    visibility: hidden;
-  }
-  
-  .nav-menu.menu-ready {
-    transition: transform 0.3s ease, visibility 0.3s ease;
-  }
-  
-  .nav-menu.active {
-    transform: translateX(0);
-    visibility: visible;
-  }
-  
-  .nav-menu li {
-    width: 100%;
-    border-bottom: 1px solid var(--border);
-  }
-  
-  .nav-menu li:last-child {
-    border-bottom: none;
-    margin-top: 15px;
-  }
-  
-  .nav-link {
-    display: block;
-    padding: 15px 0;
-    font-size: 16px;
-    white-space: normal;
-  }
-  
-  .btn-nav-cta {
-    display: block;
-    text-align: center;
-    width: 100%;
-    padding: 14px 20px;
+/* === NOWE LOGO Z EMOJI ĹšNIEĹ»YNKI === */
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+.logo-snowflake {
+  font-size: 34px;
+}
+.logo-text-new {
+  font-size: 22px;
+  font-weight: 800;
+}
+.logo-text-black {
+  color: #1a3a52;
+}
+.logo-text-blue {
+  color: #2563eb;
+}
+/* Ukrycie tekstu logo w zakresie 769-865px */
+@media (min-width: 769px) and (max-width: 865px) {
+  .logo-text {
+    display: none;
   }
 }
+
+@media (max-width: 768px) {
+  .nav-links { display: none; flex-direction: column; position: absolute; top: 80px; left: 0; right: 0; background: #ffffff; padding: 16px 0 24px; box-shadow: 0 8px 24px rgba(0,0,0,0.10); gap: 0; }
+  .nav-links.active { display: flex; }
+  .nav-links li { width: 100%; }
+  .nav-links a { display: block; padding: 12px 24px; font-size: 16px; }
+  .nav-dropdown-menu { display: none; position: static; transform: none; box-shadow: none; border: none; border-radius: 0; padding: 0; background: #f8fafc; }
+  .nav-dropdown.open .nav-dropdown-menu { display: block; }
+  .nav-dropdown-menu li a { padding: 10px 36px; font-size: 15px; color: #718096; }
+  .hamburger { display: flex; }
+  .nav-phone { display: none; }
+}
+/* reset listy: style-index.css ma globalny reset ul, style.css produktów nie */
+.nav-links { margin: 0; padding: 0; list-style: none; }
+.nav-dropdown-menu { margin: 0; list-style: none; }

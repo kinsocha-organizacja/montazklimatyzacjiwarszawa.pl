@@ -33,9 +33,9 @@ const GREE_SERIES = [
       { icon: "📊", title: "Mocny przepływ", desc: "Wysoka wydajność nawiewu powietrza w całym pomieszczeniu." }
     ],
     images: [
-      { url: "https://udraznianierur.eu/klimatyzatory-scienne/gree-amber-prestige-gwh09yd-s6dba2a-indoor.webp", label: null, type: "indoor" }
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/gree-amber-prestige-gwh09yd-s6dba2a-indoor.webp", label: null, type: "indoor" }
     ],
-    outdoorImage: "https://udraznianierur.eu/klimatyzatory-scienne/gree-amber-prestige-YD09NA2-outdoor.webp",
+    outdoorImage: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/gree-amber-prestige-YD09NA2-outdoor.webp",
     energyBadge: true,
     variants: [
       {
@@ -114,9 +114,9 @@ const GREE_SERIES = [
       { icon: "🔄", title: "Inteligentne odszranianie", desc: "Zaawansowany algorytm odszraniania zapewniający ciągłą pracę." }
     ],
     images: [
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-soyal-GWH09AKC-K6DNA1A-indoor.webp", label: null, type: "indoor" }
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-soyal-GWH09AKC-K6DNA1A-indoor.webp", label: null, type: "indoor" }
     ],
-    outdoorImage: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-soyal-YC09NA4-outdoor.webp",
+    outdoorImage: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-soyal-YC09NA4-outdoor.webp",
     energyBadge: true,
     variants: [
       {
@@ -182,10 +182,10 @@ const GREE_SERIES = [
       { icon: "🔄", title: "Inteligentne odszranianie", desc: "Zaawansowany algorytm odszraniania zapewniający ciągłą pracę." }
     ],
     images: [
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-scienny-gree-u-crown-GWH09UB-K6DNA4H-kolor-silver-indoor.webp", label: "Srebrny", type: "indoor" },
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-scienny-gree-u-crown-GWH09UB-K6DNA4A-kolor-szampanski-indoor.webp", label: "Szampański", type: "indoor" }
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-scienny-gree-u-crown-GWH09UB-K6DNA4H-kolor-silver-indoor.webp", label: "Srebrny", type: "indoor" },
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-scienny-gree-u-crown-GWH09UB-K6DNA4A-kolor-szampanski-indoor.webp", label: "Szampański", type: "indoor" }
     ],
-    outdoorImage: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-u-crown-UC09NA4-outdoor.webp",
+    outdoorImage: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-u-crown-UC09NA4-outdoor.webp",
     energyBadge: false,
     variants: [
       {
@@ -251,12 +251,12 @@ const GREE_SERIES = [
       { icon: "⚡", title: "Jonizator Cold Plasma", desc: "Jonizacja powietrza eliminująca kurz i drobnoustroje." }
     ],
     images: [
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-scienny-gree-airy-GWH09AVCXB-K6DNA1B-kolor-bialy-indoor.webp", label: "Biały", type: "indoor" },
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-scienny-gree-airy-GWH09AVDXE-K6DNA1A-kolor-szampanski-indoor.webp", label: "Szampański", type: "indoor" },
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-scienny-gree-airy-GWH09AVEXF-K6DNA1A-kolor-grafitowy-indoor.webp", label: "Grafitowy", type: "indoor" },
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-scienny-gree-airy-GWH09AVEXF-K6DNA1A-kolor-szary-indoor.webp", label: "Szary", type: "indoor" }
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-scienny-gree-airy-GWH09AVCXB-K6DNA1B-kolor-bialy-indoor.webp", label: "Biały", type: "indoor" },
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-scienny-gree-airy-GWH09AVDXE-K6DNA1A-kolor-szampanski-indoor.webp", label: "Szampański", type: "indoor" },
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-scienny-gree-airy-GWH09AVEXF-K6DNA1A-kolor-grafitowy-indoor.webp", label: "Grafitowy", type: "indoor" },
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-scienny-gree-airy-GWH09AVEXF-K6DNA1A-kolor-szary-indoor.webp", label: "Szary", type: "indoor" }
     ],
-    outdoorImage: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-airy-AV09NA1-outdoor.webp",
+    outdoorImage: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-airy-AV09NA1-outdoor.webp",
     energyBadge: false,
     variants: [
       {
@@ -335,13 +335,13 @@ const GREE_SERIES = [
       { icon: "📶", title: "Wi-Fi + Pilot IR", desc: "Zdalne sterowanie aplikacją Gree+ lub klasycznym pilotem w zestawie." }
     ],
     images: [
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-clivia-{INDEX}-bialy-indoor.webp", label: "Biały", type: "indoor", useIndex: true },
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-clivia-{INDEX}-kolor-bezowy-indoor.webp", label: "Beżowy", type: "indoor", useIndex: true },
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-clivia-{INDEX}-kolor-granatowy-indoor.webp", label: "Granatowy", type: "indoor", useIndex: true },
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-clivia-{INDEX}-kolor-satynowa-czern-indoor.webp", label: "Satynowa czerń", type: "indoor", useIndex: true },
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-clivia-{INDEX}-kolor-srebrny-indoor.webp", label: "Srebrny", type: "indoor", useIndex: true }
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-clivia-GWH12AUCXB-K6DNA1A-bialy-indoor.webp", label: "Biały", type: "indoor", useIndex: true },
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-clivia-GWH12AUCXB-K6DNA1A-kolor-bezowy-indoor.webp", label: "Beżowy", type: "indoor", useIndex: true },
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-clivia-GWH12AUCXB-K6DNA1A-kolor-granatowy-indoor.webp", label: "Granatowy", type: "indoor", useIndex: true },
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-clivia-GWH12AUCXB-K6DNA1A-kolor-satynowa-czern-indoor.webp", label: "Satynowa czerń", type: "indoor", useIndex: true },
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-clivia-GWH12AUCXB-K6DNA1A-kolor-srebrny-indoor.webp", label: "Srebrny", type: "indoor", useIndex: true }
     ],
-    outdoorImage: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-clivia-outdoor.webp",
+    outdoorImage: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-clivia-outdoor.webp",
     energyBadge: false,
     variants: [
       {
@@ -420,11 +420,11 @@ const GREE_SERIES = [
       { icon: "📶", title: "Wi-Fi w standardzie", desc: "Zdalne sterowanie aplikacją Gree+ ze smartfona." }
     ],
     images: [
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-fairy-kolor-bialy-indoor.webp", label: "Biały", type: "indoor" },
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-fairy-kolor-srebrny-indoor.webp", label: "Srebrny", type: "indoor" },
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-fairy-kolor-czarny-dark-indoor.webp", label: "Czarny", type: "indoor" }
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-fairy-kolor-bialy-indoor.webp", label: "Biały", type: "indoor" },
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-fairy-kolor-srebrny-indoor.webp", label: "Srebrny", type: "indoor" },
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-fairy-kolor-czarny-dark-indoor.webp", label: "Czarny", type: "indoor" }
     ],
-    outdoorImage: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-fairy-outdoor.webp",
+    outdoorImage: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-fairy-outdoor.webp",
     energyBadge: false,
     variants: [
       {
@@ -490,10 +490,10 @@ const GREE_SERIES = [
       { icon: "🔬", title: "System filtrów", desc: "Zaawansowana filtracja powietrza dla zdrowego klimatu." }
     ],
     images: [
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-g-tech-GWH09YD-S6DBA2A-kolor-rozowe-zloto-indoor.webp", label: "Różowe złoto", type: "indoor" },
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-g-tech-GWH09YD-S6DBA2A-kolor-srebrny-indoor.webp", label: "Srebrny", type: "indoor" }
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-g-tech-GWH09YD-S6DBA2A-kolor-rozowe-zloto-indoor.webp", label: "Różowe złoto", type: "indoor" },
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-g-tech-GWH09YD-S6DBA2A-kolor-srebrny-indoor.webp", label: "Srebrny", type: "indoor" }
     ],
-    outdoorImage: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-g-tech-outdoor.webp",
+    outdoorImage: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-g-tech-outdoor.webp",
     energyBadge: false,
     variants: [
       {
@@ -546,9 +546,9 @@ const GREE_SERIES = [
       { icon: "⚡", title: "Jonizator plazmowy", desc: "Jonizacja powietrza eliminująca kurz i drobnoustroje." }
     ],
     images: [
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-konsola-kolor-bialy-indoor.webp", label: null, type: "indoor" }
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-konsola-kolor-bialy-indoor.webp", label: null, type: "indoor" }
     ],
-    outdoorImage: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-g-tech-outdoor.webp",
+    outdoorImage: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-g-tech-outdoor.webp",
     energyBadge: false,
     variants: [
       {
@@ -614,9 +614,9 @@ const GREE_SERIES = [
       { icon: "💧", title: "Osuszanie", desc: "Funkcja osuszania powietrza utrzymująca komfortową wilgotność." }
     ],
     images: [
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-scienny-gree-lomo-luxury-plus-gwh12qc-k6dnb2f-indoor.webp", label: null, type: "indoor" }
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-scienny-gree-lomo-luxury-plus-gwh12qc-k6dnb2f-indoor.webp", label: null, type: "indoor" }
     ],
-    outdoorImage: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-lomo-luxury-plus-outdoor.webp",
+    outdoorImage: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-lomo-luxury-plus-outdoor.webp",
     energyBadge: true,
     variants: [
       {
@@ -695,9 +695,9 @@ const GREE_SERIES = [
       { icon: "🔥", title: "Gorący start", desc: "Natychmiastowe grzanie bez nieprzyjemnego zimnego nawiewu." }
     ],
     images: [
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-pular-GWH09AGAXB-K6DNA1B-indoor.webp", label: null, type: "indoor" }
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-pular-GWH09AGAXB-K6DNA1B-indoor.webp", label: null, type: "indoor" }
     ],
-    outdoorImage: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-pular-jednostka-zewn%C4%99trzna-outdoor.webp",
+    outdoorImage: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-pular-jednostka-zewnętrzna-outdoor.webp",
     energyBadge: true,
     variants: [
       {
@@ -776,12 +776,12 @@ const GREE_SERIES = [
       { icon: "⚡", title: "Jonizator powietrza", desc: "Jonizacja powietrza eliminująca kurz i drobnoustroje." }
     ],
     images: [
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-amber-standard-kolor-bialy-indoor.webp", label: "Biały", type: "indoor" },
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-amber-standard-kolor-srebrny-indoor.webp", label: "Srebrny", type: "indoor" },
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-amber-standard-kolor-czarny-indoor.webp", label: "Czarno-srebrny", type: "indoor" },
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-amber-standard-kolor-caly-czarny-indoor.webp", label: "Czarny", type: "indoor" }
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-amber-standard-kolor-bialy-indoor.webp", label: "Biały", type: "indoor" },
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-amber-standard-kolor-srebrny-indoor.webp", label: "Srebrny", type: "indoor" },
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-amber-standard-kolor-czarny-indoor.webp", label: "Czarno-srebrny", type: "indoor" },
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-amber-standard-kolor-caly-czarny-indoor.webp", label: "Czarny", type: "indoor" }
     ],
-    outdoorImage: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-amber-standard-outdoor.webp",
+    outdoorImage: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-amber-standard-outdoor.webp",
     energyBadge: false,
     variants: [
       {
@@ -847,9 +847,9 @@ const GREE_SERIES = [
       { icon: "✨", title: "Wykończenie perłowe", desc: "Eleganckie perłowe wykończenie dopasowane do każdego wnętrza." }
     ],
     images: [
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-cosmo-kolor-pearl-indoor.webp", label: "Perłowy", type: "indoor" }
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-cosmo-kolor-pearl-indoor.webp", label: "Perłowy", type: "indoor" }
     ],
-    outdoorImage: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-cosmo-kolor-pearl-outdoor.webp",
+    outdoorImage: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-cosmo-kolor-pearl-outdoor.webp",
     energyBadge: false,
     noSeerScop: true,
     variants: [
@@ -925,10 +925,10 @@ const GREE_SERIES = [
       { icon: "⚡", title: "Jonizator powietrza", desc: "Jonizacja powietrza eliminująca kurz i drobnoustroje." }
     ],
     images: [
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-pular-pro-kolor-bialy-indoor.webp", label: "Biały", type: "indoor" },
-      { url: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-pular-pro-kolor-dark-indoor.webp", label: "Czarny", type: "indoor" }
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-pular-pro-kolor-bialy-indoor.webp", label: "Biały", type: "indoor" },
+      { url: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-pular-pro-kolor-dark-indoor.webp", label: "Czarny", type: "indoor" }
     ],
-    outdoorImage: "https://montaz-serwis-klimatyzacji.pl/klimatyzatory-scienne-gree/klimatyzator-gree-pular-pro-outdoor.webp",
+    outdoorImage: "https://montazklimatyzacjiwarszawa.pl/klimatyzatory-scienne-gree/klimatyzator-gree-pular-pro-outdoor.webp",
     energyBadge: false,
     variants: [
       {
@@ -1141,7 +1141,7 @@ function generateProductPage(seriesData, variantIndex) {
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
   </noscript>
 
-  <link rel="stylesheet" href="https://montaz-serwis-klimatyzacji.pl/style.css">
+  <link rel="stylesheet" href="https://montazklimatyzacjiwarszawa.pl/style.css">
   <link rel="stylesheet" href="navbar-style.css">
 </head>
 <body>
