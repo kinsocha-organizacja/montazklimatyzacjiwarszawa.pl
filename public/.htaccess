@@ -29,18 +29,15 @@ RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
 RewriteRule ^ %1 [R=301,L]
 
 ######################################
-# 2. MAPOWANIE NA .html (OBSŁUGA /blog ORAZ /blog/)
+# 1b. Ukośnik na końcu -> 301 na adres bez ukośnika (jednym skokiem)
 ######################################
-# Reguła dla adresów BEZ slasha (np. /blog -> blog.html)
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^([^/]+)$ $1.html [L]
+RewriteRule ^(.+)/$ /$1 [R=301,L]
 
-# Reguła dla adresów ZE slashem (np. /blog/ -> blog.html)
-# Sprawdzamy czy plik o nazwie (folder).html istnieje
-RewriteCond %{REQUEST_URI} ^/(.+)/$
-RewriteCond %{DOCUMENT_ROOT}/%1.html -f
-RewriteRule ^(.+)/$ $1.html [L]
+######################################
+# 2. MAPOWANIE NA .html (także gdy istnieje folder o tej samej nazwie, np. /blog -> blog.html)
+######################################
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^(.+)$ $1.html [L]
 
 ######################################
 # 3. DODATKOWE ZABEZPIECZENIE DLA STRON TYPU /ku-przestrodze
